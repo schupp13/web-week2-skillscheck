@@ -1,0 +1,128 @@
+body{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav{
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgray;
+  
+}
+
+.menu{
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 50px;
+  
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo{
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
+.banner{
+  height: 50vh;
+  width: 100vw;
+  background-color: black;
+  color: yellow;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+
+}
+.green{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+
+.greenBox{
+  height: 20vw;
+  width: 20vw;
+  border-radius: 10%;
+  background-color: #b4f6b4;
+}
+
+.orange{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.orangeBox{
+  height: 40vh;
+  width: 40vw;
+  background-color: orange;
+}
+
+.content{
+  margin-top: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text{
+  
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageDiv{
+   
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 400px;
+}
+
+
+footer{
+  margin-top: 10vh;
+  height: 15vh;
+  width: 100%;
+  background-color: #7070b6;
+}
